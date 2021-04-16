@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/techease/flutter_app/MainActivity.java
+ com.techease.flutter_app.MainActivity
+com/techease/flutter_app/BuildConfig.java
+ com.techease.flutter_app.BuildConfig

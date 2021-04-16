@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.techease.flutter_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/eapple/Desktop/flutter_app/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/eapple/Desktop/flutter_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:5:5-81
+15-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:5:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:6:5-80
+16-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:6:22-77
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:7:5-65
+17-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:7:22-62
+18
+19    <application
+19-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:8:4-45:19
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] /Users/eapple/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:10:9-43
+23        android:label="flutter_app" >
+23-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:9:9-36
+24        <activity
+24-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:11:9-39:20
+25            android:name="com.techease.flutter_app.MainActivity"
+25-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:12:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:15:13-163
+27            android:hardwareAccelerated="true"
+27-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:16:13-47
+28            android:launchMode="singleTop"
+28-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:13:13-43
+29            android:theme="@style/LaunchTheme"
+29-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:14:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:17:13-55
+31
+32            <!--
+33                 Specifies an Android theme to apply to this Activity as soon as
+34                 the Android process has started. This theme is visible to the user
+35                 while the Flutter UI initializes. After that, this theme continues
+36                 to determine the Window background behind the Flutter UI.
+37            -->
+38            <meta-data
+38-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:22:13-25:17
+39                android:name="io.flutter.embedding.android.NormalTheme"
+39-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:23:15-70
+40                android:resource="@style/NormalTheme" />
+40-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:24:15-52
+41            <!--
+42                 Displays an Android View that continues showing the launch screen
+43                 Drawable until Flutter paints its first frame, then this splash
+44                 screen fades out. A splash screen is useful to avoid any visual
+45                 gap between the end of Android's launch screen and the painting of
+46                 Flutter's first frame.
+47            -->
+48            <meta-data
+48-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:31:13-34:17
+49                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+49-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:32:15-79
+50                android:resource="@drawable/launch_background" />
+50-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:33:15-61
+51
+52            <intent-filter>
+52-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:35:13-38:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:36:17-68
+53-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:36:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:37:17-76
+55-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:37:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             Don't delete the meta-data below.
+60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+61        -->
+62        <meta-data
+62-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:42:9-44:33
+63            android:name="flutterEmbedding"
+63-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:43:13-44
+64            android:value="2" />
+64-->/Users/eapple/Desktop/flutter_app/android/app/src/main/AndroidManifest.xml:44:13-30
+65
+66        <provider
+66-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:12:9-20:20
+67            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+67-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:13:13-68
+68            android:authorities="com.techease.flutter_app.fishbunfileprovider"
+68-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:14:13-71
+69            android:exported="false"
+69-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:15:13-37
+70            android:grantUriPermissions="true" >
+70-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:16:13-47
+71            <meta-data
+71-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:17:13-19:58
+72                android:name="android.support.FILE_PROVIDER_PATHS"
+72-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:18:17-67
+73                android:resource="@xml/provider_paths" />
+73-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:19:17-55
+74        </provider>
+75
+76        <activity
+76-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:22:9-25:51
+77            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+77-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:23:13-71
+78            android:label="@string/album"
+78-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:24:13-42
+79            android:theme="@style/FishBunTheme" />
+79-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:25:13-48
+80        <activity
+80-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:26:9-28:51
+81            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+81-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:27:13-73
+82            android:theme="@style/FishBunTheme" />
+82-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:28:13-48
+83        <activity
+83-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:29:9-31:54
+84            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+84-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:30:13-73
+85            android:theme="@style/DetailViewTheme" />
+85-->[com.sangcomz:FishBun:0.11.2] /Users/eapple/.gradle/caches/transforms-2/files-2.1/4d2f13d27fea762c2853c69feb4b46e0/jetified-FishBun-0.11.2/AndroidManifest.xml:31:13-51
+86    </application>
+87
+88</manifest>

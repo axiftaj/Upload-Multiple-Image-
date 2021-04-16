@@ -1,0 +1,8 @@
+com/vitanov/multiimagepicker/FileDirectory.java
+ com.vitanov.multiimagepicker.FileDirectory
+com/vitanov/multiimagepicker/MultiImagePickerPlugin.java
+ com.vitanov.multiimagepicker.MultiImagePickerPlugin
+ com.vitanov.multiimagepicker.MultiImagePickerPlugin$GetImageTask
+ com.vitanov.multiimagepicker.MultiImagePickerPlugin$GetThumbnailTask
+com/vitanov/multiimagepicker/BuildConfig.java
+ com.vitanov.multiimagepicker.BuildConfig
